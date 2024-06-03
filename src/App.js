@@ -62,43 +62,73 @@ const data = [
   {
     heading: `Concrete Damage Detector`,
     desc: `Implemented a Deep Learning model using YOLO-v8 which can detect and segment damages on concrete surfaces in real-time and help maintain strength and integrity of buildings. The model is trained on a custom dataset made using Roboflow.`,
-    link: 'https://github.com/MaybeTarun/Concrete-Damage-Detector'
+    link: `https://github.com/MaybeTarun/Concrete-Damage-Detector`
   },
   {
     heading: `Cognify`,
     desc: `Developed a cloud based learning platform using Kotlin and XML that automates learning methods making it easy for the user to learn and understand things. It uses OpenAI as its AI model.`,
-    link: 'https://maybetarun.github.io/CognifyWebsite.github.io/'
+    link: `https://github.com/MaybeTarun/Cognify`
   },
   {
-    heading: `3`,
-    desc: `Implemented a Deep Learning model using YOLO-v8 which can detect and segment damages on concrete surfaces in real-time and help maintain strength and integrity of buildings. The model is trained on a custom dataset made using Roboflow.`,
-    link: 'https://github.com/MaybeTarun/Concrete-Damage-Detector'
+    heading: `Foresty`,
+    desc: `Created a user-friendly platform that helps users in finding vulnerabilities (such as open ports) in their websites which anyone could have used to hack them. It uses a shell script which automates the process of vulnerability assessment.`,
+    link: `https://github.com/MaybeTarun/Foresty`
   },
   {
-    heading: `4`,
-    desc: `Developed a cloud based learning platform using Kotlin and XML that automates learning methods making it easy for the user to learn and understand things. It uses OpenAI as its AI model.`,
-    link: 'https://maybetarun.github.io/CognifyWebsite.github.io/'
+    heading: `Know-About`,
+    desc: `Built an NPM Package that gives you info about people when you run the command "npx know-about [name]". Currently consists of only 2-3 people's info but I plan to add more, so if you want to add yours too just dm me on twitter ;)`,
+    link: `https://www.npmjs.com/package/know-about`
   },
   {
-    heading: `5`,
-    desc: `Implemented a Deep Learning model using YOLO-v8 which can detect and segment damages on concrete surfaces in real-time and help maintain strength and integrity of buildings. The model is trained on a custom dataset made using Roboflow.`,
-    link: 'https://github.com/MaybeTarun/Concrete-Damage-Detector'
+    heading: `Image Colorizer`,
+    desc: `This website is a photo colorizer. You can upload your black and white photos and it uses a machine learning model, created by Rich Zhang, to colorize the images for you!`,
+    link: `https://github.com/MaybeTarun/ImageColorizer`
   },
   {
-    heading: `6`,
-    desc: `Developed a cloud based learning platform using Kotlin and XML that automates learning methods making it easy for the user to learn and understand things. It uses OpenAI as its AI model.`,
-    link: 'https://maybetarun.github.io/CognifyWebsite.github.io/'
+    heading: `Holostry`,
+    desc: `Developed this project for a 24hr Hackathon - MOZOHACK with my friends. It consists of 3D holographic model of carbon compounds which students can use to visualize the compounds in 3 dimensions making it easier for them to understand.`,
+    link: `https://github.com/MaybeTarun/Holostry`
   },
   {
-    heading: `7`,
-    desc: `Implemented a Deep Learning model using YOLO-v8 which can detect and segment damages on concrete surfaces in real-time and help maintain strength and integrity of buildings. The model is trained on a custom dataset made using Roboflow.`,
-    link: 'https://github.com/MaybeTarun/Concrete-Damage-Detector'
+    heading: `Payback-to-ya`,
+    desc: `Created an NPM package which you can add to your website if your client doesn't pay you on time. It will slowly make the website disappear in 7 days and the client will be in ShIk sHaK ShOk.`,
+    link: `https://www.npmjs.com/package/payback-to-ya`
   },
   {
-    heading: `8`,
-    desc: `Developed a cloud based learning platform using Kotlin and XML that automates learning methods making it easy for the user to learn and understand things. It uses OpenAI as its AI model.`,
-    link: 'https://maybetarun.github.io/CognifyWebsite.github.io/'
+    heading: `Sentiment Analyzer`,
+    desc: `It is a Python application that utilizes the Boto3 library to interact with Amazon Comprehend's sentiment analysis service. The application is built with a graphical user interface (GUI) created using the Tkinter library.`,
+    link: `https://github.com/MaybeTarun/SentimentAnalyzer`
+  },
+  {
+    heading: `Spree`,
+    desc: `Just a movie recommendation website that uses OMDb API.`,
+    link: `https://github.com/MaybeTarun/Spree`
+  },
+  {
+    heading: `Dad Jokes`,
+    desc: `Built a chrome extension that displays random dad jokes whenever used. It uses an API called icanhazdadjoke.`,
+    link: `https://github.com/MaybeTarun/DadJokes-ChromeExt`
+  },
+  {
+    heading: `Aint a Calculator`,
+    desc: `I honestly don't know why I built this. But whats done is done. It is a calculator which only works when you switch its lever on. It also displays some math puns (coz it's fun). My original idea was to display math questions which you have to answer in order for the calculator to work. (might complete it someday)`,
+    link: `https://maybetarun.github.io/AintACalculator.github.io/`
+  },
+  {
+    heading: `Bank Management System`,
+    desc: `Built this with python as a school project. It is very basic but it is one of my first coding projects that worked just how I wanted it to be. So it is very close to my heart.`,
+    link: `https://github.com/MaybeTarun/Bank-Management-Project`
+  },
+  {
+    heading: `Dice Simulator`,
+    desc: `A very normal dice simulator built with Python. Also one of my very old school project.`,
+    link: `https://github.com/MaybeTarun/Dice-Simulator`
   }
+  // {
+  //   heading: ``,
+  //   desc: ``,
+  //   link: ``
+  // }
 ];
 
 export default App;
