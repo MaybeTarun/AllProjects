@@ -72,6 +72,7 @@ header {
   inset: 0;
   left: -5px;
   margin: auto;
+  margin-left: -5px;
   width: 310px;
   height: 410px;
   border-radius: 20px;
