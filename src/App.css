@@ -25,9 +25,7 @@ header {
   justify-content: center;
   padding: 30px 20px;
   text-align: center;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  border-bottom: 3px solid white;
 }
 
 .carousel-container {
