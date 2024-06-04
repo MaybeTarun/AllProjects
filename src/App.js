@@ -106,12 +106,12 @@ const data = [
   },
   {
     heading: `Dad Jokes`,
-    desc: `Built a chrome extension that displays random dad jokes whenever used. It uses an API called icanhazdadjoke.`,
+    desc: `Built a chrome extension that displays random dad jokes whenever used. It uses an API called icanhazdadjoke. You can check it out by turning on developer mode in chrome extensions and loading my extension.`,
     link: `https://github.com/MaybeTarun/DadJokes-ChromeExt`
   },
   {
     heading: `Aint a Calculator`,
-    desc: `I honestly don't know why I built this. But whats done is done. It is a calculator which only works when you switch its lever on. It also displays some math puns (coz it's fun). My original idea was to display math questions which you have to answer in order for the calculator to work. (might complete it someday)`,
+    desc: `I honestly don't know why I built this. But whats done is done. It is a calculator which only works when you switch its lever on (you have to solve a random math question in order to switch it on). It also displays some math puns (coz it's fun).`,
     link: `https://maybetarun.github.io/AintACalculator.github.io/`
   },
   {
