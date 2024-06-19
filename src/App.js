@@ -1,9 +1,11 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 function App() {
+  const [shuffledData, setShuffledData] = useState([]);
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },
@@ -23,12 +25,25 @@ function App() {
     },
   };
 
+  useEffect(() => {
+    const shuffleArray = (array) => {
+      const newArr = [...array];
+      for (let i = newArr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+      }
+      return newArr;
+    };
+
+    setShuffledData(shuffleArray(data));
+  }, []);
+
   return (
     <>
-    <header>
-      Projects Built by Tarun Gupta
-    </header>
-    <div className="carousel-container">
+      <header>
+        Projects Built by Tarun Gupta
+      </header>
+      <div className="carousel-container">
         <Carousel 
           responsive={responsive} 
           showDots={true} 
@@ -37,7 +52,7 @@ function App() {
           containerClass="carousel-wrapper"
           itemClass="carousel-item"
         >
-          {data.map((d, index) => (
+          {shuffledData.map((d, index) => (
             <div key={index} className='card'>
               <p className='heading'>
                 {d.heading}
@@ -53,7 +68,7 @@ function App() {
             </div>
           ))}
         </Carousel>
-    </div>
+      </div>
     </>
   );
 }
@@ -123,6 +138,11 @@ const data = [
     heading: `Dice Simulator`,
     desc: `A very normal dice simulator built with Python. Also one of my very old school project.`,
     link: `https://github.com/MaybeTarun/Dice-Simulator`
+  },
+  {
+    heading: `Aaargh!`,
+    desc: `Game inspired by Flappy Bird. The player is controlled by making weird noises like "aaaah" or "aargh".`,
+    link: `https://aaargh.vercel.app/`
   }
   // {
   //   heading: ``,
