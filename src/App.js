@@ -143,6 +143,11 @@ const data = [
     heading: `Aaargh!`,
     desc: `Game inspired by Flappy Bird. The player is controlled by making weird noises like "aaaah" or "aargh".`,
     link: `https://aaargh.vercel.app/`
+  },
+  {
+    heading: `Finance Tracker`,
+    desc: `An application for tracking personal finances`,
+    link: `https://financetracker-five.vercel.app/`
   }
   // {
   //   heading: ``,
